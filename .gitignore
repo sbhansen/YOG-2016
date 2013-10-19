@@ -3,3 +3,9 @@ LICENSE.txt
 README.txt
 demos/
 extras/documentation
+
+/*.buildpath
+/*.project
+/.sass-cache
+/.git
+/.settings
