@@ -498,7 +498,7 @@ $default-float: left;
 
 // Background color for the breadcrumb container.
 
-// $crumb-bg: lighten($secondary-color, 5%);
+$crumb-bg: lighten(#000, 10%);
 
 // Padding around the breadcrumbs.
 
@@ -509,23 +509,23 @@ $default-float: left;
 
 // $crumb-function-factor: 10%;
 // $crumb-border-size: 1px;
-// $crumb-border-style: solid;
+$crumb-border-style: none;
 // $crumb-border-color: darken($crumb-bg, $crumb-function-factor);
-// $crumb-radius: $global-radius;
+$crumb-radius: 0;
 
 // Various text styles for breadcrumbs.
 
 // $crumb-font-size: emCalc(11px);
 // $crumb-font-color: $primary-color;
-// $crumb-font-color-current: #333;
+$crumb-font-color-current: $foxtrot;
 // $crumb-font-color-unavailable: #999;
 // $crumb-font-transform: uppercase;
 // $crumb-link-decor: underline;
 
 // Slash between breadcrumbs
 
-// $crumb-slash-color: #aaa;
-// $crumb-slash: "/";
+$crumb-slash-color: #555;
+$crumb-slash: "/";
 
 //
 // Clearing Variables
@@ -1204,12 +1204,12 @@ $default-float: left;
 
 // Background color for the top bar
 
-// $topbar-bg: #111 !default;
+$topbar-bg: #222 !default;
 
 // Height and margin
 
 // $topbar-height: 45px;
-// $topbar-margin-bottom: emCalc(30px);
+$topbar-margin-bottom: 0;
 
 // Control Input height for top bar
 

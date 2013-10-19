@@ -1,4 +1,6 @@
 // Global Foundation Settings
+@import "fonts";
+@import "colors/pallet-1";
 @import "settings";
 
 // Comment out this import if you don't want to use normalize
@@ -46,3 +48,6 @@
 // @import "foundation/components/tooltips";
 // @import "foundation/components/dropdown";
 
+@import "module/title-screen";
+@import "module/top-bar";
+@import "module/page-navigation";

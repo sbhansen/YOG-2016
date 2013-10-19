@@ -1,0 +1,31 @@
+#title-screen {
+	background-image: url( ../images/background-1.png );
+	background-attachment: fixed;
+	background-position: 20% 180%;
+	@media #{$small} {
+		background-position: 20% 170%;
+	}
+	transition: background-position 2s;
+	overflow: hidden;
+	.row {
+		@media #{$small} {
+			height: 250px;
+		}
+		height: 150px;
+		position: relative;
+		transition: height .4s;
+	}
+	h2 {
+		@media #{$small} {
+			font-size: 6em;
+		}
+		font-size: 4em;
+		font-family: "Blackout Two Am", $header-font-family;
+		left: 15px;
+		line-height: 0.9em;
+		margin: 0;
+		position: absolute;
+		bottom: 0;
+		text-shadow: -1px 3px 0 $charlie;
+	}
+}
